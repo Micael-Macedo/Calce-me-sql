@@ -1,0 +1,16 @@
+<h1>Calce-me, a maior loja de calçados do Brasil</h1>
+<div class="row">
+  {{#each calcados}}
+  <div class="col-sm-6 col-lg-4 col-xl-3 mb-2">
+    <div class="card" style="width: 18rem;"> 
+      <div class="card-body">
+        <h2 class="card-title">{{modelo}}</h2>
+        <p class="card-text">Cor: {{cor}}</p>
+        <p class="card-text">Descrição: {{descricao}}</p>
+        <p class="card-text">Material: {{material}}</p>
+        <p class="card-text">R$: {{valor}}</p>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</div>

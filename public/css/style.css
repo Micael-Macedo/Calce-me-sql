@@ -1,0 +1,147 @@
+:root{
+    --nav-bg: black;
+    --foot-bg: black;
+    --nav-a: white;
+    --nav-a-hover: rgb(161, 54, 54);
+    --foot-a: white;
+    --foot-a-hover: rgb(161, 54, 54);
+    --card-title-bg: rgb(161, 54, 54);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--nav-bg);
+    height: 80px;
+
+}
+nav ul{
+    align-items: center;
+}
+
+nav a{ 
+    color: var(--nav-a) !important;
+}
+nav a:hover{
+    font-size: 20px !important;
+    color: var(--nav-a-hover) !important;
+}
+
+nav a, a:hover{
+    font-size: 20px !important; 
+    font-weight: 400;
+}
+nav img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+section{
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    margin: 10px;
+}
+.card-body{
+    height: 200px;
+    padding: 0 0 10px 0;
+}
+.card-body p{
+    font-size: 20px;
+    margin: 5px 10px;
+}
+.card-title{
+    font-size: 25px;
+    background-color: var(--card-title-bg);
+    text-align: center;
+}
+#card-novas-parcerias{
+    display: flex;
+    align-content: center;
+    text-align: center;
+}
+#card-novas-parcerias a{
+    margin-top: 50px;
+    background-color: black;
+    border: black;
+    transition: 0.5s;
+}
+#card-novas-parcerias a, a:hover{
+    font-weight: 600;
+}
+#card-novas-parcerias a:hover{
+    border: black;
+    background-color: rgb(161, 54, 54);
+    
+}
+#fabricacao{
+    height: 5500px;
+}
+#fabricacao {
+    text-align: justify;
+}
+.titulo-fabricacao{
+    font-size: 35px;
+    font-weight: 700;
+}
+#fabricacao ul, li{
+    font-size: 30px;
+    margin: 10px 0;
+}
+#fabricacao ul{
+    list-style-type: none;
+}
+#fabricacao img{
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+#fabricacao a:hover{
+    font-size: 30px !important;
+    color: var(--nav-a-hover) !important;
+}
+
+#fabricacao a, a:hover{
+    font-size: 30px !important; 
+    font-weight: 400;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: var(--foot-bg);
+    display: flex;
+    align-items: center;
+}
+
+.footer-autor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-autor img{
+    margin-right: 10px;
+    max-height: 30px;
+}
+
+.footer-autor a, a:hover{
+    font-size: 18px !important;
+    font-weight: 400;
+    color: var(--foot-a);
+    text-decoration: none;
+}
+.footer-autor a:hover{
+    color: var(--foot-a-hover);
+}
